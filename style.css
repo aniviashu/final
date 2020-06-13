@@ -1,0 +1,160 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+ */ border:solid 2px pink;
+  
+
+}
+html,body{
+  background-color:#fce8fb;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+  margin:0;
+  font-size:14.95px;
+  font-family:微軟正黑體;
+  fony-weight:700;
+}
+a{
+  color:initial;
+  text-decoration:initial;
+}
+.box{
+  width:380px;
+  background-color:#f0dec0;
+  box-shadow:0px 0px 35px rgba(0,0,0,0.3);
+  transition:0.5s
+}
+.box:hover{
+  box-shadow:5px 5px 60px raba(0,0,0,0.4);
+  transform:translate(-5px,-5px);
+}
+.box:hover.top{
+  height:250px;
+  
+}
+.top{
+  background-image:url(https://dthezntil550i.cloudfront.net/5l/latest/5l1510272315203670000106110/1280_960/f87fbd59-3549-47b7-aaef-786149c8ded5.png);
+  background-position:cover;
+  background-size:cover;
+  height:330px;
+  position:relative;
+  transition:0.5s;
+}
+
+.top .name{
+position:absolute;
+  left:0px;
+  bottom:0px;
+  padding:5px 15px;
+  letter-spacing:2px;
+  color:white;
+  font-weight:3350;
+  background: linear-gradient(transparent 0%,#edca80 50%);
+  eidth:100%;
+  padding-top:30px;
+  padding-bottom:5px;
+}
+
+.heart{
+  position:fixed;
+  width:100px;
+  height:100px;
+  margin:35%;
+  transition: all  2s cubic-bezier(0.1,0.045,0.355,-1) 0.5s;
+}
+.heart:hover{
+  transform:rotate(360deg);
+  margin-top:0px;
+}
+.h1{
+  height:20px;
+  width:20px;
+  position:absolute;
+  top:565px;
+  right:9px;
+  border-radius:50%;
+  background-color:#f88;
+}
+.h2{
+ height:20px;
+  width:20px;
+  position:absolute;
+  top:565px;
+  right:27px;
+  border-radius:50%;
+  background-color:#f88; 
+}
+.h3{
+ height:20px;
+  width:20px;
+  position:absolute;
+  top:573px;
+  right:18px;
+  transform:rotate(45deg);
+  background-color:#f88; 
+}
+.bottom{
+  padding:10px 20px 20px 20px
+    
+}
+.bottom li{
+  padding:5px 0px
+}
+.bottom h3{
+display:inline-block;
+}
+.botttom ul{
+  list-style:none;
+  padding-left:0;
+  
+}
+.buttons{
+margin-top:30px;
+  margin-left:10px;
+}
+
+.buttons4{
+margin-top:30px;
+}
+.buttons .btn{
+display:inline-block;
+  padding:10px 25px;
+  letter-spacing:2px;
+}
+
+.buttons4 .btn{
+display:inline-block;
+  padding:10px 25px;
+  letter-spacing:2px;
+}
+.btnWebsite{
+  background-color:#b5b4b1;
+  color:white;
+  transition:0.5s;
+}
+
+.btnWebsite4{
+  background-color:#fff;
+  color:white;
+  transition:0.5s;
+}
+.btnWebsite:hover{
+  background-color:#f5cd8c;
+}
+
+.btnWebsite4:hover{
+  background-color:#edc887
+    
+    ;
+}
+.btnNews{
+  border:solid 1px black;
+  float:right;
+}
+.btnNews:hover{
+  background-color: #eee;
+}
